@@ -30,17 +30,24 @@ body{
 form>div{
     border: rgb(4, 150, 247) 1px;
     margin: 10px;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 5px 5px 5px 5px rgb(61, 74, 78);
 }
 input[type=submit]{
     padding: 20px;
-    background-color: white;
+    background-color: rgba(98, 167, 231, 0);
     width: 30%;
     border-radius: 10px;
     font-size: xx-large;
     position: relative;
     left: 20%;
     margin-top: 15px;
+    border: rgb(4, 150, 247) 5px;
+    box-shadow: 5px 5px 5px 5px rgb(61, 74, 78);
+
+}
+input[type=submit]:hover{
+    background-color: rgb(4, 150, 247);
+
 }
