@@ -3,7 +3,9 @@
     padding: 0;
 }
 body{
-    background-color: aqua;
+    background-image: linear-gradient(to bottom right, rgb(4, 150, 247), white);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .board{
     border: solid;
@@ -21,9 +23,11 @@ body{
     left: 10%;
 }
 form>div{
-    border: solid;
+    border: rgb(4, 150, 247) 1px;
     margin: 10px;
     background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgb(61, 74, 78);
 }
 input[type=submit]{
     padding: 20px;
@@ -33,4 +37,5 @@ input[type=submit]{
     font-size: xx-large;
     position: relative;
     left: 20%;
+    margin-top: 15px;
 }
