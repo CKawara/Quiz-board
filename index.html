@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+
     <title>Quiz Board</title>
 </head>
 <body>
-    <div>QUIZ BOARD</div>
+    <div class="board">
+        <p id="quiz">QUIZ BOARD</p>
+        <p>Answer the following Javascript questions and submit to get yout score</p>
+        <p>Good luck!!</p>
+    </div>
     <div class="container">
         <div class="row">
             <form>
@@ -79,6 +84,9 @@
                     <label for="concat()">concat()</label><br>
                     <input type="radio" id="" name="Question4" value="append()">
                     <label for="append()">append().</label>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
                 </div>
             </form>
         </div>
