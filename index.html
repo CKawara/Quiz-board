@@ -11,87 +11,90 @@
 
     <title>Quiz Board</title>
 </head>
-<body>
-    <div class="board">
-        <p id="quiz">QUIZ BOARD</p>
-        <p>Answer the following Javascript questions and submit to get yout score</p>
-        <p>Good luck!!</p>
-    </div>
-    <div class="container">
-        <div class="row">
-            <form name="game" id="questions">
-                <div class="col-sm-4">
-                    <p>1. Which tag is used to write the javascript code</p>
-                    <input type="radio" id="" name="question1" value="script">
-                    <label for="script">script</label><br>
-                    <input type="radio" id="" name="question1" value="sp">
-                    <label for="sp">sp</label><br>
-                    <input type="radio" id="" name="question1" value="javascript">
-                    <label for="javascript">javascript</label><br>
-                    <input type="radio" id="" name="question1" value="java">
-                    <label for="java">java</label>
-                </div>
-                <div class="col-sm-4">
-                    <p>2. Which is not valid data type in Javascript</p>
-                    <input type="radio" id="" name="question2" value="Undefinded">
-                    <label for="Undefinded">Undefinded</label><br>
-                    <input type="radio" id="" name="question2" value="Boolean">
-                    <label for="Boolean">Boolean</label><br>
-                    <input type="radio" id="" name="question2" value=" float">
-                    <label for=" float"> float</label><br>
-                    <input type="radio" id="" name="question2" value="Number">
-                    <label for="Number">Number</label>
-                </div>
-                <div class="col-sm-4">
-                    <p>3. Which of the following type of variable is visible everywhere in your JavaScript code?</p>
-                    <input type="radio" id="" name="question3" value="global variable">
-                    <label for="global variable">global variable</label><br>
-                    <input type="radio" id="" name="question3" value="local variable">
-                    <label for="local variable">local variable</label><br>
-                    <input type="radio" id="" name="question3" value="Both of the above">
-                    <label for="Both of the above.">Both of the above</label><br>
-                    <input type="radio" id="" name="question3" value="None of the above">
-                    <label for="None of the above">None of the above.</label>
-                </div>
-                <div class="col-sm-4">
-                    <p>4. Which of the following function of Array object reverses the order of the elements of an array?</p>
-                    <input type="radio" id="" name="question4" value="push()">
-                    <label for="push()">push()</label><br>
-                    <input type="radio" id="" name="question4" value="reduce()">
-                    <label for="reduce()">reduce()</label><br>
-                    <input type="radio" id="" name="question4" value="reverse()">
-                    <label for="reverse()">reverse()</label><br>
-                    <input type="radio" id="" name="question4" value="reduceRight()">
-                    <label for="reduceRight()">reduceRight()</label>
-                </div>
-                <div class="col-sm-4">
-                    <p>5. Which of the following function of String object extracts a section of a string and returns a new string?</p>
-                    <input type="radio" id="" name="question5" value=" slice()">
-                    <label for=" slice()"> slice()</label><br>
-                    <input type="radio" id="" name="question5" value="split()">
-                    <label for="split()">split()</label><br>
-                    <input type="radio" id="" name="question5" value="replace()">
-                    <label for="replace()">replace()</label><br>
-                    <input type="radio" id="" name="question5" value="search()">
-                    <label for="search()">search()</label>
-                </div>
-                <div class="col-sm-4">
-                    <p>6. Which of the following function of String object combines the text of two strings and returns a new string?</p>
-                    <input type="radio" id="" name="question6" value="add()">
-                    <label for="add()">add()</label><br>
-                    <input type="radio" id="" name="question6" value="merge()">
-                    <label for="merge()">merge()</label><br>
-                    <input type="radio" id="" name="question6" value="concat()">
-                    <label for="concat()">concat()</label><br>
-                    <input type="radio" id="" name="question6" value="append()">
-                    <label for="append()">append().</label>
-                </div>
-                    <input type="submit" value="Submit" onclick="getResult()">
-            </form>
+<body >
+    <div id="questions">
+        <div class="board">
+            <p id="quiz">QUIZ BOARD</p>
+            <p>Answer the following Javascript questions and submit to get yout score</p>
+            <p>Good luck!!</p>
         </div>
-    </div>
+        <div class="container">
+            <div class="row">
+                <form name="game">
+                    <div class="col-sm-4">
+                        <p>1. Which tag is used to write the javascript code</p>
+                        <input type="radio" id="" name="question1" value="script">
+                        <label for="script">script</label><br>
+                        <input type="radio" id="" name="question1" value="sp">
+                        <label for="sp">sp</label><br>
+                        <input type="radio" id="" name="question1" value="javascript">
+                        <label for="javascript">javascript</label><br>
+                        <input type="radio" id="" name="question1" value="java">
+                        <label for="java">java</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>2. Which is not valid data type in Javascript</p>
+                        <input type="radio" id="" name="question2" value="Undefinded">
+                        <label for="Undefinded">Undefinded</label><br>
+                        <input type="radio" id="" name="question2" value="Boolean">
+                        <label for="Boolean">Boolean</label><br>
+                        <input type="radio" id="" name="question2" value=" float">
+                        <label for=" float"> float</label><br>
+                        <input type="radio" id="" name="question2" value="Number">
+                        <label for="Number">Number</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>3. Which of the following type of variable is visible everywhere in your JavaScript code?</p>
+                        <input type="radio" id="" name="question3" value="global variable">
+                        <label for="global variable">global variable</label><br>
+                        <input type="radio" id="" name="question3" value="local variable">
+                        <label for="local variable">local variable</label><br>
+                        <input type="radio" id="" name="question3" value="Both of the above">
+                        <label for="Both of the above.">Both of the above</label><br>
+                        <input type="radio" id="" name="question3" value="None of the above">
+                        <label for="None of the above">None of the above.</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>4. Which of the following function of Array object reverses the order of the elements of an array?</p>
+                        <input type="radio" id="" name="question4" value="push()">
+                        <label for="push()">push()</label><br>
+                        <input type="radio" id="" name="question4" value="reduce()">
+                        <label for="reduce()">reduce()</label><br>
+                        <input type="radio" id="" name="question4" value="reverse()">
+                        <label for="reverse()">reverse()</label><br>
+                        <input type="radio" id="" name="question4" value="reduceRight()">
+                        <label for="reduceRight()">reduceRight()</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>5. Which of the following function of String object extracts a section of a string and returns a new string?</p>
+                        <input type="radio" id="" name="question5" value=" slice()">
+                        <label for=" slice()"> slice()</label><br>
+                        <input type="radio" id="" name="question5" value="split()">
+                        <label for="split()">split()</label><br>
+                        <input type="radio" id="" name="question5" value="replace()">
+                        <label for="replace()">replace()</label><br>
+                        <input type="radio" id="" name="question5" value="search()">
+                        <label for="search()">search()</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>6. Which of the following function of String object combines the text of two strings and returns a new string?</p>
+                        <input type="radio" id="" name="question6" value="add()">
+                        <label for="add()">add()</label><br>
+                        <input type="radio" id="" name="question6" value="merge()">
+                        <label for="merge()">merge()</label><br>
+                        <input type="radio" id="" name="question6" value="concat()">
+                        <label for="concat()">concat()</label><br>
+                        <input type="radio" id="" name="question6" value="append()">
+                        <label for="append()">append().</label>
+                    </div>
+                        <input type="submit" value="Submit" onclick="getResult()">
+                </form>
+            </div>
+        </div>
+        <div id="last"></div>
     
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
