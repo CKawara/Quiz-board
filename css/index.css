@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
 }
+html{
+    height: 100%;
+}
 body{
+    font-family: poppins;
+    height: 100%;
     background-image: linear-gradient(to bottom right, rgb(4, 150, 247), white);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-attachment: fixed;
 }
 .board{
     border: solid;
