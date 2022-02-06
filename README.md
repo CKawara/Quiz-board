@@ -9,6 +9,14 @@ Here's a live demo
 ## Design
 The site's UI was designed using Figma, which you can view [here](https://www.figma.com/file/Y2vS325U5vT92Nlf7CZ7zg/Untitled?node-id=0%3A1)
 
+## Setup and Installation
+No installations required, just fork and clone the repo, make changes and commit the changes.
+
+## Requirements
+To use the site you'll need;
+- A device (smartphone, PC or tablet).
+- An internet conection.
+
 ## Technologies
 - [HTML](https://www.w3schools.com/html/) -Used for the site's structure.
 - [CSS](https://www.w3schools.com/css/) -Used to style the site.
