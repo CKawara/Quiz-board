@@ -17,13 +17,13 @@ function getResult(){
     questions.style.display = "none";
     
     if (score>=100) {
-        result.textContent="your score is" + " " + score + " " + "excellent perfomance";
+        alert("your score is" + " " + score + " " + "excellent perfomance");
         
     }else if (score>=60) {
-        result.textContent='your score is' + " " + score + " " + "fair perfomance";
+        alert('your score is' + " " + score + " " + "fair perfomance");
         
     } else {
-        result.textContent='your score is:' + " " + score + " " + "poor perfomance retake the test"; 
+        alert('your score is:' + " " + score + " " + "poor perfomance retake the test"); 
   
     };
 }
