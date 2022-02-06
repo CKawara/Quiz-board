@@ -7,7 +7,7 @@ The site uses forms to collect the answers and uses Javascript for the computati
 Here's a live demo 
 
 ## Design
-The site's UI was designed using Figma, which you can view [here]()
+The site's UI was designed using Figma, which you can view [here](https://www.figma.com/file/Y2vS325U5vT92Nlf7CZ7zg/Untitled?node-id=0%3A1)
 
 ## Technologies
 - [HTML](https://www.w3schools.com/html/) -Used for the site's structure.
