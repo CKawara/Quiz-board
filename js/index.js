@@ -6,21 +6,24 @@ function getResult(){
     var answer4 = document.game.question4.value;
     var answer5 = document.game.question5.value;
     var answer6 = document.game.question6.value;
+    var result = document.getElementById("last");
     if(answer1=="script"){score+=20};
     if(answer2=="Undefinded"){score+=20};
     if(answer3=="global variable"){score+=20};
     if(answer4=="reverse()"){score+=20};
     if(answer5=="slice()"){score+=20};
     if(answer6=="concat()"){score+=20};
+
+    questions.style.display = "none";
     
     if (score>=100) {
-        alert("your score is" + " " + score + " " + "excellent perfomance")
+        result.textContent="your score is" + " " + score + " " + "excellent perfomance";
         
     }else if (score>=60) {
-        alert('your score is' + " " + score + " " + "fair perfomance")
+        result.textContent='your score is' + " " + score + " " + "fair perfomance";
         
     } else {
-       alert('your score is' + " " + score + " " + "poor perfomance retake the test")
+        result.textContent='your score is:' + " " + score + " " + "poor perfomance retake the test"; 
   
     };
 }
