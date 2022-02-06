@@ -17,10 +17,10 @@ function getResult(){
     questions.style.display = "none";
     
     if (score>=100) {
-        alert("your score is" + " " + score + " " + "excellent perfomance");
+        alert("your score is:" + " " + score + " " + "excellent perfomance!!");
         
     }else if (score>=60) {
-        alert('your score is' + " " + score + " " + "fair perfomance");
+        alert('your score is:' + " " + score + " " + "fair perfomance");
         
     } else {
         alert('your score is:' + " " + score + " " + "poor perfomance retake the test"); 
