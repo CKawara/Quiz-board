@@ -4,7 +4,7 @@ The site uses forms to collect the answers and uses Javascript for the computati
 
 
 ## Demo
-Here's a live demo 
+Here's a live demo https://ckawara.github.io/Quiz-board/
 
 ## Design
 The site's UI was designed using Figma, which you can view [here](https://www.figma.com/file/Y2vS325U5vT92Nlf7CZ7zg/Untitled?node-id=0%3A1)
