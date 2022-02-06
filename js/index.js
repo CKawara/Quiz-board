@@ -14,13 +14,13 @@ function getResult(){
     if(answer6=="concat()"){score+=20};
     
     if (score>=100) {
-        document.write("your score is" + " " + score + " " + "excellent perfomance")
+        alert("your score is" + " " + score + " " + "excellent perfomance")
         
     }else if (score>=60) {
-        document.write('your score is' + " " + score + " " + "fair perfomance")
+        alert('your score is' + " " + score + " " + "fair perfomance")
         
     } else {
-        document.write('your score is' + " " + score + " " + "poor perfomance retake the test")
+       alert('your score is' + " " + score + " " + "poor perfomance retake the test")
   
     };
 }
